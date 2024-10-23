@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 550px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.quote-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#buddhaImg {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.buddha-quote {
+    margin-right: 20px;
+}
+
+.quote {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#quotes-teller {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.randomBtn {
+    padding: 10px 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: lightblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.randomBtn:hover {
+    background-color: lightgreen;
+}
